@@ -30,7 +30,7 @@ const showAdvice = () => {
 
 const showOptions = () => {
     if (advices.length) {
-        alert(`masz takie możliwości: ${advices}`)
+        alert(`masz takie możliwości: ${advices.join(', ')}`)
     } else {
         alert('najpierw musisz dodać jakies możliwości, misiaczkuuuu')
     }
